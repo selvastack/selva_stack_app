@@ -1,0 +1,86 @@
+{
+  "section": {
+    "id": "section-donacion",
+    "slug": "donacion",
+    "sortOrder": 1,
+    "isActive": true,
+    "createdAt": "2026-07-08T00:00:00.000Z",
+    "updatedAt": "2026-07-08T00:00:00.000Z",
+    "eyebrow": "Donación",
+    "title": "Haz una donación y sé parte de la transformación digital amazónica",
+    "description": "Cada aporte nos ayuda a crear tecnología útil, accesible y con impacto real. Tu donación permite formar talento local, construir herramientas digitales y fortalecer proyectos sociales en la Amazonía.",
+    "trustNote": "Tu aporte será destinado a programas de educación digital, desarrollo tecnológico cívico, herramientas abiertas y acompañamiento a comunidades u organizaciones amazónicas."
+  },
+  "amounts": [
+    {
+      "id": "donation-20",
+      "slug": "20-soles",
+      "sortOrder": 1,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "amount": 20,
+      "currency": "PEN",
+      "label": "S/ 20",
+      "description": "Ayudas a financiar recursos educativos digitales para estudiantes y jóvenes amazónicos."
+    },
+    {
+      "id": "donation-50",
+      "slug": "50-soles",
+      "sortOrder": 2,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "amount": 50,
+      "currency": "PEN",
+      "label": "S/ 50",
+      "description": "Apoyas talleres de formación tecnológica y materiales de aprendizaje."
+    },
+    {
+      "id": "donation-100",
+      "slug": "100-soles",
+      "sortOrder": 3,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "amount": 100,
+      "currency": "PEN",
+      "label": "S/ 100",
+      "description": "Contribuyes al desarrollo de herramientas digitales para organizaciones sociales."
+    },
+    {
+      "id": "donation-250",
+      "slug": "250-soles",
+      "sortOrder": 4,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "amount": 250,
+      "currency": "PEN",
+      "label": "S/ 250",
+      "description": "Aceleras el diseño de prototipos y recursos para programas de formación."
+    },
+    {
+      "id": "donation-500",
+      "slug": "500-soles",
+      "sortOrder": 5,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "amount": 500,
+      "currency": "PEN",
+      "label": "S/ 500",
+      "description": "Impulsas prototipos tecnológicos, mapas, plataformas o sistemas de información."
+    }
+  ],
+  "frequencies": [
+    "Donación única",
+    "Donación mensual"
+  ],
+  "donorTypes": [
+    "Persona",
+    "Empresa",
+    "Institución"
+  ],
+  "corporateDonationCopy": "Financia programas completos de formación, innovación cívica o desarrollo tecnológico para comunidades amazónicas."
+}

@@ -1,0 +1,182 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #0a6909;
+  --color-primary-dark: #064906;
+  --color-primary-soft: #6ba65c;
+  --color-mint: #eefcee;
+  --color-mint-2: #ddf5da;
+  --color-text-dark: #102a12;
+  --color-text-muted: #5f725f;
+  --color-white: #ffffff;
+  --color-black-green: #041604;
+  --color-border: rgba(10, 105, 9, 0.16);
+  --color-glow: rgba(10, 105, 9, 0.28);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 92px;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: var(--color-white);
+  color: var(--color-text-dark);
+  font-family:
+    Inter, Manrope, "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+::selection {
+  background: rgba(10, 105, 9, 0.18);
+  color: var(--color-primary-dark);
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.section-shell {
+  padding: 5.5rem 1rem;
+}
+
+@media (min-width: 640px) {
+  .section-shell {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-shell {
+    padding: 7rem 2rem;
+  }
+}
+
+.tech-grid {
+  background-image:
+    linear-gradient(rgba(10, 105, 9, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(10, 105, 9, 0.055) 1px, transparent 1px);
+  background-size: 42px 42px;
+}
+
+.card-surface {
+  border: 1px solid var(--color-border);
+  border-radius: 1.25rem;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 22px 64px rgba(4, 22, 4, 0.08);
+  transition:
+    transform 220ms ease,
+    border-color 220ms ease,
+    box-shadow 220ms ease,
+    background 220ms ease;
+}
+
+.card-surface:hover {
+  transform: translateY(-4px);
+  border-color: rgba(10, 105, 9, 0.32);
+  box-shadow: 0 28px 80px rgba(4, 22, 4, 0.12);
+}
+
+.form-field {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.form-field > span {
+  color: var(--color-text-dark);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.form-field > small {
+  color: #b42318;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.input-shell {
+  width: 100%;
+  border: 1px solid var(--color-border);
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.88);
+  color: var(--color-text-dark);
+  outline: none;
+  padding: 0.9rem 1rem;
+  transition:
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    background 180ms ease;
+}
+
+.input-shell::placeholder {
+  color: rgba(95, 114, 95, 0.68);
+}
+
+.input-shell:focus {
+  border-color: rgba(10, 105, 9, 0.62);
+  background: #ffffff;
+  box-shadow: 0 0 0 4px rgba(10, 105, 9, 0.12);
+}
+
+.faq-item {
+  border: 1px solid var(--color-border);
+  border-radius: 1.15rem;
+  background: rgba(255, 255, 255, 0.86);
+  box-shadow: 0 16px 44px rgba(4, 22, 4, 0.06);
+}
+
+.faq-item summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 1.25rem 1.35rem;
+  color: var(--color-text-dark);
+  font-weight: 900;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary::after {
+  content: "+";
+  float: right;
+  color: var(--color-primary);
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.faq-item[open] summary::after {
+  content: "–";
+}
+
+.faq-item p {
+  border-top: 1px solid var(--color-border);
+  padding: 0 1.35rem 1.35rem;
+  color: var(--color-text-muted);
+  line-height: 1.75;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

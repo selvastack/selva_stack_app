@@ -1,0 +1,70 @@
+{
+  "section": {
+    "id": "section-que-hacemos",
+    "slug": "que-hacemos",
+    "sortOrder": 1,
+    "isActive": true,
+    "createdAt": "2026-07-08T00:00:00.000Z",
+    "updatedAt": "2026-07-08T00:00:00.000Z",
+    "eyebrow": "Qué hacemos",
+    "title": "Construimos tecnología con impacto social",
+    "description": "Diseñamos, desarrollamos y acompañamos iniciativas digitales que ayudan a resolver problemas reales en la Amazonía."
+  },
+  "items": [
+    {
+      "id": "action-plataformas",
+      "slug": "plataformas-digitales-civicas",
+      "sortOrder": 1,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "title": "Plataformas digitales cívicas",
+      "description": "Creamos herramientas web, mapas, sistemas de información, directorios, observatorios y plataformas para organizaciones, comunidades e instituciones.",
+      "icon": "layers"
+    },
+    {
+      "id": "action-educacion",
+      "slug": "educacion-formacion-tecnologica",
+      "sortOrder": 2,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "title": "Educación y formación tecnológica",
+      "description": "Impulsamos talleres, bootcamps, mentorías y recursos educativos en programación, inteligencia artificial, herramientas digitales y ciudadanía tecnológica.",
+      "icon": "graduation-cap"
+    },
+    {
+      "id": "action-innovacion",
+      "slug": "innovacion-organizaciones-sociales",
+      "sortOrder": 3,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "title": "Innovación para organizaciones sociales",
+      "description": "Ayudamos a ONGs, colectivos, asociaciones y emprendimientos amazónicos a digitalizar procesos, mejorar su comunicación e incrementar su impacto.",
+      "icon": "handshake"
+    },
+    {
+      "id": "action-datos",
+      "slug": "datos-abiertos-transparencia",
+      "sortOrder": 4,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "title": "Datos abiertos y transparencia",
+      "description": "Promovemos el uso responsable de datos, visualizaciones, reportes y tecnología abierta para fortalecer la toma de decisiones.",
+      "icon": "bar-chart-3"
+    },
+    {
+      "id": "action-territorio",
+      "slug": "impacto-ambiental-territorial",
+      "sortOrder": 5,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "title": "Proyectos de impacto ambiental y territorial",
+      "description": "Desarrollamos soluciones para visibilizar problemáticas, mapear recursos, conectar actores y proteger territorios amazónicos.",
+      "icon": "leaf"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "section": {
+    "id": "section-programas",
+    "slug": "programas",
+    "sortOrder": 1,
+    "isActive": true,
+    "createdAt": "2026-07-08T00:00:00.000Z",
+    "updatedAt": "2026-07-08T00:00:00.000Z",
+    "eyebrow": "Programas",
+    "title": "Nuestros programas principales",
+    "description": "Cinco líneas de trabajo conectan formación, datos, innovación y alianzas para que la tecnología llegue donde genera más impacto."
+  },
+  "items": [
+    {
+      "id": "program-selva-lab",
+      "slug": "selva-lab",
+      "sortOrder": 1,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "name": "Selva Lab",
+      "summary": "Laboratorio de innovación cívica para crear prototipos, herramientas digitales y soluciones tecnológicas junto a comunidades y organizaciones.",
+      "focus": "Prototipos y plataformas",
+      "icon": "flask-conical"
+    },
+    {
+      "id": "program-selva-educa",
+      "slug": "selva-educa",
+      "sortOrder": 2,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "name": "Selva Educa",
+      "summary": "Formación tecnológica para jóvenes, docentes, líderes sociales, emprendedores y organizaciones amazónicas.",
+      "focus": "Talento digital",
+      "icon": "book-open"
+    },
+    {
+      "id": "program-selva-datos",
+      "slug": "selva-datos",
+      "sortOrder": 3,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "name": "Selva Datos",
+      "summary": "Iniciativas de datos abiertos, visualización de información, monitoreo ciudadano y transparencia.",
+      "focus": "Datos abiertos",
+      "icon": "database"
+    },
+    {
+      "id": "program-selva-impacto",
+      "slug": "selva-impacto",
+      "sortOrder": 4,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "name": "Selva Impacto",
+      "summary": "Acompañamiento a proyectos sociales y empresas con propósito que buscan medir, comunicar y escalar su impacto.",
+      "focus": "Medición y escala",
+      "icon": "target"
+    },
+    {
+      "id": "program-selva-empresas",
+      "slug": "selva-empresas",
+      "sortOrder": 5,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "name": "Selva Empresas",
+      "summary": "Programa para empresas que desean donar, financiar proyectos, patrocinar tecnología o desarrollar iniciativas de responsabilidad social.",
+      "focus": "Alianzas corporativas",
+      "icon": "building-2"
+    }
+  ]
+}

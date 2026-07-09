@@ -1,0 +1,75 @@
+{
+  "section": {
+    "id": "section-faq",
+    "slug": "faq",
+    "sortOrder": 1,
+    "isActive": true,
+    "createdAt": "2026-07-08T00:00:00.000Z",
+    "updatedAt": "2026-07-08T00:00:00.000Z",
+    "eyebrow": "FAQ",
+    "title": "Preguntas frecuentes",
+    "description": "Respuestas claras para personas, empresas, voluntarios e instituciones que quieren colaborar."
+  },
+  "items": [
+    {
+      "id": "faq-que-es",
+      "slug": "que-es-selva-stack",
+      "sortOrder": 1,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "question": "¿Qué es Selva Stack?",
+      "answer": "Selva Stack es una iniciativa de tecnología cívica amazónica que desarrolla herramientas digitales, programas de formación e iniciativas de innovación social para fortalecer comunidades, organizaciones y territorios."
+    },
+    {
+      "id": "faq-destino-donaciones",
+      "slug": "destino-donaciones",
+      "sortOrder": 2,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "question": "¿A qué se destinan las donaciones?",
+      "answer": "A programas de educación tecnológica, desarrollo de plataformas digitales, acompañamiento a organizaciones sociales, producción de recursos educativos y proyectos de innovación cívica."
+    },
+    {
+      "id": "faq-empresa",
+      "slug": "donar-como-empresa",
+      "sortOrder": 3,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "question": "¿Puedo donar como empresa?",
+      "answer": "Sí. Las empresas pueden realizar donaciones, patrocinar programas, financiar herramientas digitales o desarrollar alianzas de impacto."
+    },
+    {
+      "id": "faq-voluntario",
+      "slug": "ser-voluntario",
+      "sortOrder": 4,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "question": "¿Puedo ser voluntario?",
+      "answer": "Sí. Selva Stack puede integrar voluntarios en áreas como tecnología, diseño, comunicación, educación, investigación, gestión de proyectos y alianzas."
+    },
+    {
+      "id": "faq-reportes",
+      "slug": "reportes-uso-fondos",
+      "sortOrder": 5,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "question": "¿Publicarán reportes de uso de fondos?",
+      "answer": "Sí. La página cuenta con una sección de transparencia donde se publicarán avances, resultados, reportes e información institucional."
+    },
+    {
+      "id": "faq-donde-trabaja",
+      "slug": "donde-trabaja-selva-stack",
+      "sortOrder": 6,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "question": "¿Dónde trabaja Selva Stack?",
+      "answer": "Selva Stack está enfocado en la Amazonía, especialmente en iniciativas que conectan tecnología, ciudadanía, educación, sostenibilidad e innovación social."
+    }
+  ]
+}

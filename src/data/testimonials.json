@@ -1,0 +1,27 @@
+{
+  "section": {
+    "id": "section-comunidad",
+    "slug": "comunidad",
+    "sortOrder": 1,
+    "isActive": true,
+    "createdAt": "2026-07-08T00:00:00.000Z",
+    "updatedAt": "2026-07-08T00:00:00.000Z",
+    "eyebrow": "Comunidad",
+    "title": "Una comunidad construyendo futuro desde la Amazonía",
+    "description": "Estamos construyendo nuestras primeras alianzas. Si eres parte de una organización, empresa o institución, conversemos."
+  },
+  "items": [
+    {
+      "id": "testimonial-placeholder-alianzas",
+      "slug": "primeras-alianzas",
+      "sortOrder": 1,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "quote": "Este espacio está preparado para historias reales de participantes, aliados y organizaciones cuando los primeros programas entren en marcha.",
+      "author": "Selva Stack",
+      "role": "Bloque preparado para testimonios",
+      "sourceStatus": "Pendiente de testimonios reales"
+    }
+  ]
+}

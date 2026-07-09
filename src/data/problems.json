@@ -1,0 +1,59 @@
+{
+  "section": {
+    "id": "section-problema",
+    "slug": "por-que-existe",
+    "sortOrder": 1,
+    "isActive": true,
+    "createdAt": "2026-07-08T00:00:00.000Z",
+    "updatedAt": "2026-07-08T00:00:00.000Z",
+    "eyebrow": "Por qué existe Selva Stack",
+    "title": "La Amazonía necesita tecnología pensada desde su realidad",
+    "description": "Muchas comunidades, emprendedores, organizaciones sociales e instituciones amazónicas enfrentan brechas digitales, falta de herramientas accesibles y poca visibilidad de sus iniciativas. Selva Stack nace para construir soluciones tecnológicas útiles, abiertas y sostenibles, conectando conocimiento local con innovación digital."
+  },
+  "items": [
+    {
+      "id": "problem-brecha-digital",
+      "slug": "brecha-digital",
+      "sortOrder": 1,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "title": "Brecha digital",
+      "description": "Acceso limitado a herramientas, formación y servicios digitales.",
+      "icon": "wifi-off"
+    },
+    {
+      "id": "problem-visibilidad",
+      "slug": "falta-de-visibilidad",
+      "sortOrder": 2,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "title": "Falta de visibilidad",
+      "description": "Proyectos amazónicos con gran impacto pero poca presencia digital.",
+      "icon": "eye-off"
+    },
+    {
+      "id": "problem-contexto",
+      "slug": "tecnologia-poco-adaptada",
+      "sortOrder": 3,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "title": "Tecnología poco adaptada",
+      "description": "Muchas soluciones no consideran el contexto territorial, cultural y social de la Amazonía.",
+      "icon": "map"
+    },
+    {
+      "id": "problem-oportunidad",
+      "slug": "oportunidad-de-cambio",
+      "sortOrder": 4,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "title": "Oportunidad de cambio",
+      "description": "La tecnología puede fortalecer educación, transparencia, participación ciudadana y desarrollo local.",
+      "icon": "sparkles"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "section": {
+    "id": "section-transparencia",
+    "slug": "transparencia",
+    "sortOrder": 1,
+    "isActive": true,
+    "createdAt": "2026-07-08T00:00:00.000Z",
+    "updatedAt": "2026-07-08T00:00:00.000Z",
+    "eyebrow": "Transparencia",
+    "title": "Transparencia para construir confianza",
+    "description": "Creemos que la tecnología cívica también empieza por rendir cuentas. Por eso, Selva Stack debe publicar reportes de avance, resultados, uso de fondos, aliados y proyectos financiados.",
+    "temporaryCopy": "Próximamente publicaremos nuestros primeros reportes de impacto y transparencia."
+  },
+  "items": [
+    {
+      "id": "transparency-reportes-impacto",
+      "slug": "reportes-de-impacto",
+      "sortOrder": 1,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "title": "Reportes de impacto",
+      "description": "Avances, resultados y aprendizajes de los programas.",
+      "icon": "file-chart-column"
+    },
+    {
+      "id": "transparency-uso-fondos",
+      "slug": "uso-de-fondos",
+      "sortOrder": 2,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "title": "Uso de fondos",
+      "description": "Estados claros sobre cómo se destinan donaciones y patrocinios.",
+      "icon": "wallet-cards"
+    },
+    {
+      "id": "transparency-proyectos-financiados",
+      "slug": "proyectos-financiados",
+      "sortOrder": 3,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "title": "Proyectos financiados",
+      "description": "Herramientas, talleres y plataformas impulsadas con aportes.",
+      "icon": "folder-kanban"
+    },
+    {
+      "id": "transparency-aliados",
+      "slug": "aliados-patrocinadores",
+      "sortOrder": 4,
+      "isActive": true,
+      "createdAt": "2026-07-08T00:00:00.000Z",
+      "updatedAt": "2026-07-08T00:00:00.000Z",
+      "title": "Aliados y patrocinadores",
+      "description": "Organizaciones, empresas e instituciones que colaboran con la misión.",
+      "icon": "landmark"
+    }
+  ]
+}
