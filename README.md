@@ -84,17 +84,17 @@ Hoy devuelven un recibo local mediante `DeferredLeadRepository`. Para producció
 ## Estrategia de ramas
 
 - `development`: trabajo diario y nuevas funcionalidades.
-- `testing`: QA, revisión visual y pruebas antes de producción.
+- `staging`: QA, revisión visual y pruebas antes de producción.
 - `production`: rama estable para despliegue en Vercel.
 
 Flujo recomendado:
 
 ```bash
-git checkout testing
+git checkout staging
 git merge development
 git checkout production
-git merge testing
-git push origin development testing production
+git merge staging
+git push origin development staging production
 ```
 
 ## Verificación realizada
