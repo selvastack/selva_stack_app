@@ -1,0 +1,427 @@
+{
+  "meta": {
+    "title": "Selva Stack | Tecnología Cívica Amazónica — Software, Apps, IA y 3D desde Loreto",
+    "description": "Jóvenes amazónicos construyen software a medida, apps, inteligencia artificial, 3D e infraestructura con propósito social. Conoce EcoAlerta Loreto.",
+    "ogTitle": "Selva Stack — Código que nace en la Amazonía",
+    "ogDescription": "Jóvenes amazónicos construyendo tecnología real para empresas, instituciones y sus comunidades.",
+    "ogImageAlt": "Otto, la mascota de Selva Stack, junto al titular Código que nace en la Amazonía"
+  },
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "products": "Productos",
+    "programs": "Programas",
+    "impact": "Impacto",
+    "allies": "Aliados",
+    "contact": "Contacto",
+    "cta": "Cotiza tu proyecto",
+    "language": "Idioma",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "hero": {
+    "eyebrow": "Tecnología Cívica Amazónica",
+    "title": "Código que nace en la Amazonía.",
+    "subtitle": "Jóvenes amazónicos construyendo tecnología real para empresas, instituciones y sus comunidades.",
+    "ctaProject": "Quiero un proyecto",
+    "ctaSupport": "Quiero apoyar",
+    "badge": "Nuevo: EcoAlerta Loreto — Ver reportes",
+    "chips": [
+      "Software a medida",
+      "Apps",
+      "IA",
+      "3D",
+      "Talento amazónico"
+    ],
+    "mascotAlt": "Otto, el otorongo de Selva Stack, saludando junto a Coconita"
+  },
+  "stats": {
+    "title": "Nuestro impacto",
+    "caption": "Cada número es un joven aprendiendo y una comunidad mejor conectada.",
+    "items": [
+      {
+        "value": 900,
+        "prefix": "+",
+        "label": "reportes ciudadanos en EcoAlerta Loreto"
+      },
+      {
+        "value": 20,
+        "prefix": "+",
+        "label": "jóvenes construyendo tecnología"
+      },
+      {
+        "value": 4,
+        "prefix": "",
+        "label": "productos digitales (1 lanzado, 3 en desarrollo)"
+      },
+      {
+        "value": 2,
+        "prefix": "",
+        "label": "instituciones de origen: UNAP y SENATI"
+      }
+    ]
+  },
+  "why": {
+    "eyebrow": "Por qué existimos",
+    "title": "La Amazonía necesita tecnología pensada desde su realidad.",
+    "text": "Muchos jóvenes de Loreto, sobre todo de zonas periurbanas y comunidades ribereñas, tienen talento pero pocas oportunidades de formarse en tecnología. Al mismo tiempo, organizaciones e instituciones amazónicas necesitan herramientas digitales adaptadas a su contexto. Selva Stack une ambas necesidades.",
+    "cards": [
+      {
+        "title": "Brecha digital",
+        "text": "Acceso limitado a formación y herramientas digitales lejos de la ciudad."
+      },
+      {
+        "title": "Talento sin oportunidad",
+        "text": "Jóvenes capaces sin espacios de práctica profesional real."
+      },
+      {
+        "title": "Tecnología poco adaptada",
+        "text": "Soluciones que no consideran el territorio, la cultura ni la conectividad amazónica."
+      },
+      {
+        "title": "Oportunidad de cambio",
+        "text": "La tecnología fortalece la educación, la participación ciudadana y el desarrollo local."
+      }
+    ]
+  },
+  "model": {
+    "eyebrow": "Nuestro modelo",
+    "title": "No enseñamos solo teoría. Nuestros jóvenes construyen.",
+    "text": "Cada producto que entregamos es codificado y diseñado por jóvenes amazónicos, guiados por mentores con experiencia profesional. Cuando una empresa nos contrata, recibe una solución de calidad y, al mismo tiempo, impulsa la formación de un joven de la selva.",
+    "steps": [
+      {
+        "title": "Aprenden",
+        "text": "Formación práctica en desarrollo, diseño, 3D e inteligencia artificial."
+      },
+      {
+        "title": "Construyen",
+        "text": "Participan en proyectos reales con clientes reales."
+      },
+      {
+        "title": "Transforman",
+        "text": "Llevan lo aprendido a sus comunidades como agentes de cambio."
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Servicios",
+    "title": "Tecnología profesional, hecha en la Amazonía.",
+    "subtitle": "Desarrollamos soluciones a medida, con factura, para empresas, instituciones y organizaciones.",
+    "items": [
+      {
+        "id": "software",
+        "title": "Software a medida",
+        "text": "Sistemas web y plataformas diseñados según tus procesos."
+      },
+      {
+        "id": "mobile",
+        "title": "Aplicativos móviles",
+        "text": "Apps Android e iOS, nativas y multiplataforma."
+      },
+      {
+        "id": "infra",
+        "title": "Servidores e infraestructura escalable",
+        "text": "Despliegue en la nube, servidores, seguridad y DevOps."
+      },
+      {
+        "id": "ai",
+        "title": "Inteligencia artificial",
+        "text": "Automatización, visión por computadora, chatbots y modelos a medida."
+      },
+      {
+        "id": "modeling3d",
+        "title": "Modelado 3D",
+        "text": "Productos, arquitectura y assets digitales."
+      },
+      {
+        "id": "animation3d",
+        "title": "Animación 3D",
+        "text": "Videos, motion graphics y contenido audiovisual."
+      },
+      {
+        "id": "virtual",
+        "title": "Entornos virtuales",
+        "text": "Experiencias inmersivas, recorridos virtuales y realidad virtual."
+      },
+      {
+        "id": "design",
+        "title": "Diseño gráfico y UX/UI",
+        "text": "Identidad visual, interfaces y piezas digitales."
+      }
+    ],
+    "ctaTitle": "¿Tienes un proyecto en mente?",
+    "cta": "Cotiza por WhatsApp"
+  },
+  "ecoalerta": {
+    "tag": "Recién lanzado",
+    "title": "EcoAlerta Loreto: la ciudadanía reporta, la ciudad responde.",
+    "text": "Plataforma ciudadana para reportar residuos sólidos, con mapa de calor en tiempo real, puntos de acopio y notificaciones. Construida por jóvenes de Selva Stack.",
+    "stat": "+900 reportes ciudadanos",
+    "features": [
+      "Mapa de calor en tiempo real",
+      "Puntos de acopio",
+      "Notificaciones"
+    ],
+    "funders": "Desarrollado con apoyo de Impacto Bicentenario y WCS.",
+    "cta": "Ver reportes",
+    "url": "https://ecoalerta.selvastack.org.pe/reportes",
+    "imageAlt": "Celular mostrando el mapa de calor de reportes de EcoAlerta Loreto"
+  },
+  "products": {
+    "eyebrow": "Productos",
+    "title": "Lo que estamos construyendo.",
+    "status": "En desarrollo",
+    "items": [
+      {
+        "id": "attendance",
+        "title": "Sistema de control de asistencia",
+        "text": "Registro y gestión de asistencia para instituciones y empresas."
+      },
+      {
+        "id": "assets",
+        "title": "Sistema de control de activos fijos",
+        "text": "Inventario y gestión de activos adaptable a distintos tipos de instituciones."
+      },
+      {
+        "id": "events",
+        "title": "Sistema de gestión de eventos",
+        "text": "Inscripciones, asistencia y certificados en una sola plataforma."
+      }
+    ],
+    "cta": "Quiero saber más"
+  },
+  "programs": {
+    "eyebrow": "Programas",
+    "title": "Cinco líneas de trabajo con propósito.",
+    "items": [
+      {
+        "id": "lab",
+        "tag": "Prototipos y productos",
+        "title": "Selva Lab",
+        "text": "Laboratorio donde los jóvenes crean prototipos y productos reales. EcoAlerta nació aquí."
+      },
+      {
+        "id": "educa",
+        "tag": "Talento digital",
+        "title": "Selva Educa",
+        "text": "Formación tecnológica para jóvenes amazónicos, con prioridad a zonas periurbanas y comunidades ribereñas."
+      },
+      {
+        "id": "datos",
+        "tag": "Datos abiertos",
+        "title": "Selva Datos",
+        "text": "Datos abiertos, monitoreo ciudadano y visualización de información."
+      },
+      {
+        "id": "impacto",
+        "tag": "Medición y escala",
+        "title": "Selva Impacto",
+        "text": "Medición y comunicación del impacto de proyectos sociales."
+      },
+      {
+        "id": "empresas",
+        "tag": "Alianzas",
+        "title": "Selva Empresas",
+        "text": "Servicios tecnológicos y alianzas de responsabilidad social."
+      }
+    ]
+  },
+  "business": {
+    "eyebrow": "Para empresas",
+    "title": "Tu proyecto tecnológico también puede transformar vidas.",
+    "items": [
+      {
+        "title": "Contrata un servicio",
+        "text": "Desarrollo tecnológico profesional, con factura."
+      },
+      {
+        "title": "Patrocina a un joven",
+        "text": "Financia la formación de talento amazónico."
+      },
+      {
+        "title": "Financia un producto",
+        "text": "Apoya herramientas digitales para la comunidad."
+      },
+      {
+        "title": "Responsabilidad social",
+        "text": "Comunica tu impacto con reportes y visibilidad como aliado."
+      }
+    ],
+    "ctaQuote": "Cotiza tu proyecto",
+    "ctaAlly": "Quiero ser aliado"
+  },
+  "support": {
+    "eyebrow": "Apoya",
+    "title": "Sé parte del talento que transforma la Amazonía.",
+    "text": "Buscamos aliados fundadores, personas e instituciones de Perú y el mundo, que quieran impulsar a jóvenes amazónicos a construir tecnología con propósito.",
+    "cta": "Quiero apoyar"
+  },
+  "join": {
+    "eyebrow": "Únete",
+    "title": "¿Eres joven amazónico y quieres aprender construyendo?",
+    "text": "No necesitas experiencia previa, solo ganas de aprender. Damos prioridad a jóvenes de zonas periurbanas y comunidades ribereñas de Loreto. También recibimos voluntarios profesionales.",
+    "cta": "Postula aquí",
+    "email": "voluntariado@selvastack.org.pe",
+    "emailSubject": "Postulación a Selva Stack"
+  },
+  "testimonials": {
+    "eyebrow": "Nuestro equipo",
+    "title": "Voces que construyen el futuro de la Amazonía.",
+    "items": []
+  },
+  "allies": {
+    "eyebrow": "Aliados",
+    "title": "Quienes caminan con nosotros.",
+    "note": "EcoAlerta Loreto se desarrolla con apoyo de Impacto Bicentenario y WCS.",
+    "logos": [
+      {
+        "name": "UNAP",
+        "alt": "Logo de la Universidad Nacional de la Amazonía Peruana"
+      },
+      {
+        "name": "SENATI",
+        "alt": "Logo de SENATI"
+      },
+      {
+        "name": "Impacto Bicentenario",
+        "alt": "Logo de Impacto Bicentenario"
+      },
+      {
+        "name": "WCS",
+        "alt": "Logo de Wildlife Conservation Society"
+      }
+    ]
+  },
+  "transparency": {
+    "eyebrow": "Transparencia",
+    "title": "Transparencia para construir confianza.",
+    "text": "Publicaremos nuestros primeros reportes al completar nuestra formalización.",
+    "items": [
+      {
+        "title": "Reportes de impacto",
+        "text": "Avances, resultados y aprendizajes de los programas."
+      },
+      {
+        "title": "Uso de fondos",
+        "text": "Información clara sobre cómo se destinan los recursos."
+      },
+      {
+        "title": "Proyectos financiados",
+        "text": "Herramientas y productos impulsados con apoyo de aliados."
+      },
+      {
+        "title": "Aliados",
+        "text": "Organizaciones e instituciones que colaboran con la misión."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Resolvemos tus dudas.",
+    "items": [
+      {
+        "q": "¿Qué es Selva Stack?",
+        "a": "Una asociación civil sin fines de lucro de Loreto donde jóvenes amazónicos aprenden tecnología construyendo productos y servicios reales."
+      },
+      {
+        "q": "¿Puedo contratar sus servicios?",
+        "a": "Sí. Desarrollamos software, apps, inteligencia artificial, 3D e infraestructura, con factura. Escríbenos por WhatsApp para cotizar."
+      },
+      {
+        "q": "¿Quiénes desarrollan los proyectos?",
+        "a": "Jóvenes del equipo, guiados por mentores con experiencia y con control de calidad profesional."
+      },
+      {
+        "q": "¿Quiénes pueden unirse?",
+        "a": "Jóvenes de la Amazonía peruana, en especial de Loreto, zonas periurbanas y comunidades ribereñas. Postula en voluntariado@selvastack.org.pe."
+      },
+      {
+        "q": "¿Cómo puedo apoyar?",
+        "a": "Escríbenos por WhatsApp para conversar sobre alianzas y formas de apoyo."
+      },
+      {
+        "q": "¿Qué es EcoAlerta Loreto?",
+        "a": "Nuestra plataforma ciudadana de reporte de residuos sólidos, con más de 900 reportes."
+      },
+      {
+        "q": "¿Publicarán reportes?",
+        "a": "Sí, en la sección de Transparencia."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "Construyamos juntos el futuro digital de la Amazonía.",
+    "whatsappLabel": "WhatsApp",
+    "whatsappDisplay": "+51 940 901 752",
+    "emailLabel": "Correo",
+    "email": "hola@selvastack.org.pe",
+    "volunteerLabel": "Voluntariado",
+    "volunteerEmail": "voluntariado@selvastack.org.pe",
+    "socialLabel": "Síguenos",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo",
+      "organization": "Organización o empresa",
+      "interest": "Tipo de interés",
+      "interestOptions": {
+        "project": "Proyecto tecnológico",
+        "ally": "Alianza",
+        "support": "Apoyo",
+        "volunteer": "Voluntariado",
+        "press": "Prensa",
+        "other": "Otro"
+      },
+      "message": "Mensaje",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando...",
+      "required": "Este campo es obligatorio.",
+      "invalidEmail": "Ingresa un correo válido."
+    },
+    "success": "¡Gracias! Te responderemos pronto.",
+    "error": "No pudimos enviar tu mensaje. Escríbenos por WhatsApp."
+  },
+  "whatsapp": {
+    "project": "Hola Selva Stack, quiero cotizar un proyecto de…",
+    "support": "Hola Selva Stack, me gustaría apoyar a los jóvenes amazónicos. ¿Cómo puedo ayudar?",
+    "ally": "Hola Selva Stack, represento a una empresa y queremos ser aliados.",
+    "product": "Hola Selva Stack, quiero saber más sobre el {product}.",
+    "general": "Hola Selva Stack, quiero más información.",
+    "floatingLabel": "Escríbenos por WhatsApp"
+  },
+  "footer": {
+    "tagline": "Tecnología Cívica Amazónica",
+    "about": "Jóvenes amazónicos construyendo tecnología con propósito para que la Amazonía tenga más oportunidades y herramientas para construir su propio futuro.",
+    "navTitle": "Navegación",
+    "socialTitle": "Redes",
+    "privacy": "Política de privacidad",
+    "location": "Iquitos, Loreto, Perú",
+    "rights": "© {year} Asociación Civil Selva Stack. Todos los derechos reservados."
+  },
+  "social": {
+    "whatsappUrl": "https://wa.me/51940901752",
+    "items": [
+      {
+        "id": "facebook",
+        "name": "Facebook",
+        "url": "https://www.facebook.com/selvastack",
+        "handle": "@selvastack",
+        "aria": "Síguenos en Facebook"
+      },
+      {
+        "id": "instagram",
+        "name": "Instagram",
+        "url": "https://www.instagram.com/selvastack",
+        "handle": "@selvastack",
+        "aria": "Síguenos en Instagram"
+      },
+      {
+        "id": "tiktok",
+        "name": "TikTok",
+        "url": "https://www.tiktok.com/@selva.stack",
+        "handle": "@selva.stack",
+        "aria": "Síguenos en TikTok"
+      }
+    ]
+  }
+}
