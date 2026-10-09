@@ -1,14 +1,15 @@
 import type { MetadataRoute } from "next";
 
-import { publicEnv } from "@/lib/env";
+import { routing } from "@/i18n/routing";
+import { SITE_URL } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [
-    {
-      url: publicEnv.siteUrl,
-      lastModified: new Date("2026-07-08"),
-      changeFrequency: "monthly",
-      priority: 1
-    }
-  ];
+  const languages = Object.fromEntries(routing.locales.map((l) => [l, `${SITE_URL}/${l}`]));
+  return routing.locales.map((l) => ({
+    url: `${SITE_URL}/${l}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly",
+    priority: l === routing.defaultLocale ? 1 : 0.9,
+    alternates: { languages }
+  }));
 }
