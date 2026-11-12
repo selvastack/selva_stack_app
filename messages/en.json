@@ -42,6 +42,7 @@
       {
         "value": 900,
         "prefix": "+",
+        "source": "ecoalertaReports",
         "label": "citizen reports on EcoAlerta Loreto"
       },
       {
@@ -156,7 +157,7 @@
     "tag": "Just launched",
     "title": "EcoAlerta Loreto: citizens report, the city responds.",
     "text": "A citizen platform to report solid waste, with a real-time heat map, collection points and notifications. Built by Selva Stack youth.",
-    "stat": "900+ citizen reports",
+    "stat": "{count} citizen reports",
     "features": [
       "Real-time heat map",
       "Collection points",
@@ -341,7 +342,7 @@
       },
       {
         "q": "What is EcoAlerta Loreto?",
-        "a": "Our citizen platform for reporting solid waste, with more than 900 reports."
+        "a": "Our citizen platform for reporting solid waste, with more than {count} reports."
       },
       {
         "q": "Will you publish reports?",
