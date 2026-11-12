@@ -1,6 +1,6 @@
 export type TitleText = { title: string; text: string };
 export type IdItem = TitleText & { id: string };
-export type StatItem = { value: number; prefix: string; label: string };
+export type StatItem = { value: number; prefix: string; label: string; source?: "ecoalertaReports" };
 export type ProgramItem = IdItem & { tag: string };
 export type FaqItem = { q: string; a: string };
 export type AllyLogo = { name: string; alt: string };

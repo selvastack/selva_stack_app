@@ -21,6 +21,9 @@ import { Why } from "@/components/sections/Why";
 import { FloatingWhatsApp } from "@/components/ui/FloatingWhatsApp";
 import { RiverScroll } from "@/components/ui/RiverScroll";
 
+// Regenerate at most every 10 min so EcoAlerta figures stay current (see lib/ecoalerta.ts).
+export const revalidate = 600;
+
 export default async function Home({ params }: PageProps<"/[locale]">) {
   const { locale } = await params;
   setRequestLocale(locale);

@@ -1,9 +1,10 @@
 import { ArrowUpRight, Bell, Flame, MapPin } from "lucide-react";
 import Image from "next/image";
-import { getTranslations } from "next-intl/server";
+import { getLocale, getTranslations } from "next-intl/server";
 
 import { PhoneHeatmap } from "@/components/ui/PhoneHeatmap";
 import { Reveal } from "@/components/ui/Reveal";
+import { formatReportCount, getEcoAlertaStats } from "@/lib/ecoalerta";
 
 const FEATURE_ICONS = [Flame, MapPin, Bell];
 
@@ -11,6 +12,7 @@ const FEATURE_ICONS = [Flame, MapPin, Bell];
 export async function EcoAlerta() {
   const t = await getTranslations("ecoalerta");
   const features = t.raw("features") as string[];
+  const count = formatReportCount(await getEcoAlertaStats(), await getLocale());
 
   return (
     <section aria-labelledby="eco-title" className="section-y relative overflow-hidden bg-gradient-to-br from-petroleo via-[#00282d] to-noche">
@@ -25,7 +27,7 @@ export async function EcoAlerta() {
             {t("title")}
           </h2>
           <p className="mt-5 text-lg leading-relaxed text-muted">{t("text")}</p>
-          <p className="mt-6 font-display text-3xl text-cocona">{t("stat")}</p>
+          <p className="mt-6 font-display text-3xl text-cocona">{t("stat", { count })}</p>
           <ul className="mt-6 grid gap-3 sm:grid-cols-3">
             {features.map((f, i) => {
               const Icon = FEATURE_ICONS[i % FEATURE_ICONS.length];
