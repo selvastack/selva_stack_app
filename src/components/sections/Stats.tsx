@@ -2,13 +2,18 @@ import { getLocale, getTranslations } from "next-intl/server";
 
 import { Counter } from "@/components/ui/Counter";
 import { Reveal } from "@/components/ui/Reveal";
+import { getEcoAlertaStats } from "@/lib/ecoalerta";
 import { SECTION_IDS } from "@/lib/site";
 import type { StatItem } from "@/lib/types";
 
 export async function Stats() {
   const t = await getTranslations("stats");
   const locale = await getLocale();
-  const items = t.raw("items") as StatItem[];
+  const eco = await getEcoAlertaStats();
+  // Items tagged with `source` take their value from the live EcoAlerta API.
+  const items = (t.raw("items") as StatItem[]).map((s) =>
+    s.source === "ecoalertaReports" ? { ...s, value: eco.totalReports, prefix: eco.live ? "" : s.prefix } : s
+  );
 
   return (
     <section id={SECTION_IDS.impact} aria-labelledby="stats-title" className="relative border-y border-hoja/15 bg-petroleo/60">

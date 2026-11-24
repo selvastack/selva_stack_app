@@ -42,6 +42,7 @@
       {
         "value": 900,
         "prefix": "+",
+        "source": "ecoalertaReports",
         "label": "reportes ciudadanos en EcoAlerta Loreto"
       },
       {
@@ -156,7 +157,7 @@
     "tag": "Recién lanzado",
     "title": "EcoAlerta Loreto: la ciudadanía reporta, la ciudad responde.",
     "text": "Plataforma ciudadana para reportar residuos sólidos, con mapa de calor en tiempo real, puntos de acopio y notificaciones. Construida por jóvenes de Selva Stack.",
-    "stat": "+900 reportes ciudadanos",
+    "stat": "{count} reportes ciudadanos",
     "features": [
       "Mapa de calor en tiempo real",
       "Puntos de acopio",
@@ -341,7 +342,7 @@
       },
       {
         "q": "¿Qué es EcoAlerta Loreto?",
-        "a": "Nuestra plataforma ciudadana de reporte de residuos sólidos, con más de 900 reportes."
+        "a": "Nuestra plataforma ciudadana de reporte de residuos sólidos, con más de {count} reportes."
       },
       {
         "q": "¿Publicarán reportes?",
